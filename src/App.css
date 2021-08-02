@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dbdbdc;
+}
+
+.app {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.overview {
+  background-color: #fff;
+  min-height: 200px;
+  width: 50vw;
+  margin: auto;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  padding: 2%;
+}
+
+td {
+  padding: 5%;
+}
+
+
+img {
+  height: 30px;
+  width: 30px;
+}
+

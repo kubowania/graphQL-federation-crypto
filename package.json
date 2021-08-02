@@ -1,0 +1,39 @@
+{
+  "name": "graphql-federation-crypto-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/federation": "^0.27.0",
+    "@apollo/gateway": "^0.34.0",
+    "apollo-server": "^3.0.2",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "start-gateway": "nodemon gateway.js",
+    "start-deals": "nodemon deals.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
